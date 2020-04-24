@@ -1,0 +1,56 @@
+nav,header,.Contenedor,.centrales,footer{
+    max-width: 92%;
+}
+nav{
+    background-color: orange;
+    text-align: center;
+}
+header{
+    background-color: goldenrod;
+}
+.Contenedor {
+background-color: blue;
+}
+.centrales {
+    background-color: rgb(7, 48, 180);
+    display: inline-block;
+    max-width: 64%;
+    
+   
+}
+footer{
+    background-color: goldenrod;
+}
+aside {
+    background-color: blue;
+    display: inline-block;
+    max-width: 28%;
+    vertical-align: top;
+}
+/*menu*/
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+   color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em 1em;
+}
+.listadesplegable{
+    display: none;
+    background-color: orange;
+    position: absolute;
+}
+.listadesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listadesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: white;
+}
